@@ -229,25 +229,25 @@ textarea {
 .book {
   position: relative;
   z-index: 2;
-  width: min(380px, 100%);
+  width: min(300px, 92%);
   flex: 0 0 auto;
-  margin: 0 0 20px;
+  margin: 0 0 16px;
   background: #fff;
   color: #243044;
   font-family: var(--sans);
-  padding: 14px 16px 12px;
+  padding: 10px 12px 8px;
   border-radius: 6px;
-  box-shadow: 0 18px 50px rgba(20, 16, 12, 0.28);
+  box-shadow: 0 12px 32px rgba(20, 16, 12, 0.24);
 }
 
 .book-summary {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px 14px;
-  margin: 0 0 16px;
-  padding-bottom: 12px;
+  gap: 4px 10px;
+  margin: 0 0 8px;
+  padding-bottom: 8px;
   border-bottom: 1px solid #eef1f6;
-  font-size: 13px;
+  font-size: 11px;
   color: #5b6b82;
 }
 
@@ -260,16 +260,16 @@ textarea {
 .book-summary svg,
 .book-select svg,
 .book-next svg {
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   color: var(--blue);
 }
 
 .book-field {
   display: grid;
-  gap: 6px;
-  margin-bottom: 10px;
-  font-size: 13px;
+  gap: 4px;
+  margin-bottom: 8px;
+  font-size: 12px;
 }
 
 .book-field > span:first-child {
@@ -287,7 +287,7 @@ textarea {
   width: 100%;
   border: 1px solid #e5eaf1;
   border-radius: 4px;
-  padding: 10px 36px 10px 12px;
+  padding: 6px 28px 6px 8px;
   background: #fff;
   outline: none;
 }
@@ -307,8 +307,8 @@ textarea {
 
 .book-hint,
 .book-return {
-  margin: 0 0 14px;
-  font-size: 12px;
+  margin: 0 0 8px;
+  font-size: 10px;
   color: #7a8699;
   text-align: center;
 }
@@ -318,7 +318,7 @@ textarea {
 }
 
 .cal {
-  margin: 8px 0 16px;
+  margin: 2px 0 8px;
 }
 
 .cal-head {
@@ -331,7 +331,7 @@ textarea {
 .cal-head p {
   margin: 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .cal-head button {
@@ -357,13 +357,15 @@ textarea {
 }
 
 .cal-grid button {
-  aspect-ratio: 1;
+  width: 26px;
+  height: 26px;
+  justify-self: center;
   border: 0;
   border-radius: 50%;
   background: var(--blue-soft);
   color: #3d4d6b;
   cursor: pointer;
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .cal-grid button:disabled {
@@ -403,7 +405,7 @@ textarea {
   background: none;
   color: #243044;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .book-next:disabled {
